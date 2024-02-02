@@ -4,4 +4,4 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## About
 
-Project intended to test Angular Signals with RxJS
+Project for testing Angular Signals with RxJS
