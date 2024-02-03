@@ -1,0 +1,44 @@
+import { Course } from "./course";
+
+export class CourseData {
+
+    static courses: Course[] = [
+        {
+            id: 1,
+            name: "HTML",
+            price: 2.90,
+            emptySlots: 9,
+            hasReviews: true
+        },
+        {
+            id: 2,
+            name: "CSS",
+            price: 4.90,
+            emptySlots: 6,
+            hasReviews: true
+        },
+        {
+            id: 3,
+            name: "Typescript",
+            price: 4.90,
+            emptySlots: 8,
+            hasReviews: true
+        },
+        {
+            id: 4,
+            name: "Web Design",
+            price: 6.90,
+            emptySlots: 2,
+            hasReviews: false
+        },
+        {
+            id: 5,
+            name: "Angular 17",
+            price: 9.90,
+            emptySlots: 5,
+            hasReviews: true
+        },
+    ];
+}
+
+
