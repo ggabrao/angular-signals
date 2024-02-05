@@ -12,6 +12,6 @@ export const routes: Routes = [
         path: 'cart',
         loadComponent: () => import('./cart/shell.component').then(c => c.ShellComponent)
     },
-    { path: '', redirectTo: 'welcome', pathMatch: 'full' },
+    { path: '', redirectTo: 'intro', pathMatch: 'full' },
     { path: '**', component: PageNotFoundComponent }
 ];
