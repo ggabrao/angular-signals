@@ -10,8 +10,7 @@
             routerLinkActive="active">Introduction</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/courses" (click)="isMenuCollapsed = true" routerLinkActive="active">Courses
-            List</a>
+          <a class="nav-link" routerLink="/courses" (click)="isMenuCollapsed = true" routerLinkActive="active">Courses</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" routerLink="/cart" (click)="isMenuCollapsed = true" routerLinkActive="active">Cart</a>
@@ -21,4 +20,6 @@
   </div>
 </nav>
 
-<router-outlet />
+<div class="container-fluid">
+  <router-outlet />
+</div>
