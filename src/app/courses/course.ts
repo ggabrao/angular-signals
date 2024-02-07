@@ -4,6 +4,7 @@ export interface Course {
     id: number;
     name: string; 
     price: number;
+    duration: number;
     emptySlots?: number;
     hasReviews?: boolean;
     reviews?: Review[];

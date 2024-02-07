@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './courses-list.component.scss'
 })
 export class CoursesListComponent {
-
+  pageTitle = 'Courses List'
 }
