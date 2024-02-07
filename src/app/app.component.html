@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-sm navbar-light bg-body-tertiary">
+<nav class="navbar navbar-expand-sm navbar-light bg-body-tertiary mb-2">
   <div class="container-fluid">
     <span class="navbar-brand mb-0 h1">{{title}}</span>
     <button class="navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed"
@@ -10,7 +10,8 @@
             routerLinkActive="active">Introduction</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/courses" (click)="isMenuCollapsed = true" routerLinkActive="active">Courses</a>
+          <a class="nav-link" routerLink="/courses" (click)="isMenuCollapsed = true"
+            routerLinkActive="active">Courses</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" routerLink="/cart" (click)="isMenuCollapsed = true" routerLinkActive="active">Cart</a>

@@ -5,8 +5,8 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './intro.component.html',
-  styleUrl: './intro.component.scss'
+  styles: 'img {width:44.45px; height:37.80px;}'
 })
 export class IntroComponent {
-
+  pageTitle = 'Introduction';
 }
