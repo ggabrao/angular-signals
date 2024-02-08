@@ -29,7 +29,7 @@ export class CourseData {
         },
         {
             id: 4,
-            name: "Web Design",
+            name: "Bootstrap",
             price: 6.99,
             duration: 20,
             emptySlots: 2,

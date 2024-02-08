@@ -1,17 +1,19 @@
 <h1 class="h3 text-center mb-3">{{pageTitle}}</h1>
 
 <main>
-    <div class="card text-center" *ngFor="let course of courses">
-        <div class="card-header h3">
-            {{course.name}}
-        </div>
-        <div class="card-body">
-            <h5 class="card-title">${{course.price}}</h5>
-            <p class="card-text h6">Available slots: {{course.emptySlots}}</p>
-            <a class="card-link text-decoration-none fw-bolder" routerLink="">Reviews</a>     
-        </div>
-        <div class="card-footer">
-            <a class="btn btn-primary">Add to Cart</a>
+    <div class="row m-auto container-sm">
+        <div class="card text-center mb-5 p-0 col-sm-auto m-sm-auto mb-sm-4" *ngFor="let course of courses">
+            <div class="card-header h3">
+                {{course.name}}
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">${{course.price}}</h5>
+                <p class="card-text h6">Available slots: {{course.emptySlots}}</p>
+                <a class="card-link text-decoration-none fw-bolder" routerLink="">Reviews</a>
+            </div>
+            <div class="card-footer">
+                <a class="btn btn-primary">Add to Cart</a>
+            </div>
         </div>
     </div>
 </main>
