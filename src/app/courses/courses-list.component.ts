@@ -13,7 +13,7 @@ import { RouterLink } from '@angular/router';
 })
 export class CoursesListComponent implements OnInit {
   pageTitle = 'Courses List';
-  courses:Course[] = [];
+  courses: Course[] = [];
 
   private courseService = inject(CourseService);
 
